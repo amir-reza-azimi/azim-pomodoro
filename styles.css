@@ -15,9 +15,24 @@ body {
     border-radius: 16px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
     max-width: 400px;
-    width: 90%;
+    width: 85%;
+    margin: 1rem auto;
     transition: all 0.3s ease;
     position: relative;
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        width: 80%;
+        padding: 2rem;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .container {
+        width: 75%;
+        padding: 1.5rem;
+    }
 }
 
 .timer {
