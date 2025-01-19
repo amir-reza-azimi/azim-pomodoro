@@ -61,11 +61,11 @@ body {
 }
 
 #start {
-    background-color: #00b894;
+    background-color: #213cda;
 }
 
 #start:hover {
-    background-color: #00a885;
+    background-color: #1c34b6;
     transform: translateY(-2px);
 }
 
